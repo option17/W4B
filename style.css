@@ -1,5 +1,29 @@
-#gridcontainer{
+#colours{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 20% 20% 20% 20%;
+    height: 20em;
+    column-gap: 3%;
+    
+    
+}
+.red{
+    background-color: red;
+    border: solid 3px;
+}
+.green{
+    background-color: green;
+    border: solid 3px;
+}
+.blue{
+    background-color: blue;
+    border: solid 3px;
+}
+.purple{
+    background-color: purple;
+    border: solid 3px;
+    margin-left: -11px;
 }
 
+body{
+    background-color: yellow;
+}
